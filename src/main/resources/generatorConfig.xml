@@ -16,6 +16,7 @@
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.cn.allen.mybatis.mapper" targetProject="src/main/java"/>
 
+<!--      % 表示生成所有的表结构  -->
         <table tableName="t_user"/>
     </context>
 </generatorConfiguration>
